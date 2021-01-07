@@ -1,8 +1,9 @@
 * {
 
     margin: 0;
+    /*
     overflow: hidden;
-    scroll-behavior: none;
+    scroll-behavior: none;*/
 }
 
 img {
@@ -18,10 +19,16 @@ img {
 #head {
     position: absolute;
     transform-origin: top left;
-    transform: translate(0vw, -56.53vw);
+    transform: translate(0vw, -56vw);
     width: 100 %;
     z-index: 10;
     pointer-events: none;
+}
+
+#nav_splash {
+    display: inline;
+    position: relative;
+    top: -60vw;
 }
 
 a {
@@ -32,63 +39,106 @@ a {
     text-decoration: none;
 }
 
-#menu1 {
+
+#menu1_container {
     position: relative;
-    transform: translateY(-51.8vw);
-    z-index: 15;
+
     background-color: #01866B;
     padding-left: 64vw;
     padding-top: 0.3vw;
     padding-bottom: 0.3vw;
+    top: 7vw;
+}
+
+#menu1 {
+    z-index: 15;
     font-size: 4vw;
     color: white;
 }
 
-#menu2 {
-    transform: translateY(-48vw);
+#menu2_container {
+    position: relative;
     background-color: #CA4272;
-    padding-left: 78.5vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
+
+    top: 11vw;
+}
+
+
+#menu2 {
+    left: 78.5vw;
     z-index: 5;
 }
 
 #menu2:hover {
     z-index: 15;
+    left: 0;
+    background-color: #CA4272;
+    padding-left: 78.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border-bottom: solid 1px #CA4272;
+    border-top: solid 1px #CA4272;
 }
 
-#menu3 {
+#menu3_container {
+    position: relative;
+
     background-color: #1A9BB8;
-    padding-left: 80vw;
-    transform: translate(0, -44vw);
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
 
+    top: 15vw;
+}
+
+#menu3 {
+    left: 80vw;
+    z-index: 5;
 }
 
 #menu3:hover {
     z-index: 15;
-}
-
-
-#menu4 {
-    background-color: #EEA383;
-    padding-left: 78.5vw;
-    transform: translate(0, -40vw);
+    left: 0;
+    background-color: #1A9BB8;
+    padding-left: 80vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
+    border-bottom: solid 1px #1A9BB8;
+    border-top: solid 1px #1A9BB8;
+
+}
+
+#menu4_container {
+    position: relative;
+    background-color: #EEA383;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    top: 19vw;
+}
+
+#menu4 {
+    left: 78.5vw;
+    z-index: 5;
 }
 
 #menu4:hover {
     z-index: 15;
-}
-
-#menu5 {
-    background-color: #F3514C;
-    color: #F3514C;
+    left: 0;
+    background-color: #EEA383;
     padding-left: 78.5vw;
-    transform: translate(0, -36vw);
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
+    border-bottom: solid 1px #EEA383;
+    border-top: solid 1px #EEA383;
+}
+
+#menu5_container {
+    position: relative;
+    background-color: #F3514C;
+    color: #F3514C;
+    padding-top: 2.8vw;
+    padding-bottom: 2.7vw;
+    top: 23vw;
     z-index: 15;
 }
