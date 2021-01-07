@@ -32,6 +32,8 @@ img {
 }
 
 a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
     font-size: 2vw;
     color: white;
     position: relative;
@@ -42,16 +44,17 @@ a {
 
 #menu1_container {
     position: relative;
-
+    z-index: 15;
     background-color: #01866B;
     padding-left: 64vw;
     padding-top: 0.3vw;
     padding-bottom: 0.3vw;
-    top: 7vw;
+    top: 8.5vw;
 }
 
 #menu1 {
-    z-index: 15;
+    font-family: 'Coda', cursive;
+    font-weight: 800;
     font-size: 4vw;
     color: white;
 }
@@ -61,13 +64,12 @@ a {
     background-color: #CA4272;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-
-    top: 11vw;
+    top: 12.5vw;
 }
 
 
 #menu2 {
-    left: 78.5vw;
+    left: 80vw;
     z-index: 5;
 }
 
@@ -75,11 +77,9 @@ a {
     z-index: 15;
     left: 0;
     background-color: #CA4272;
-    padding-left: 78.5vw;
+    padding-left: 80vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    border-bottom: solid 1px #CA4272;
-    border-top: solid 1px #CA4272;
 }
 
 #menu3_container {
@@ -89,7 +89,7 @@ a {
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
 
-    top: 15vw;
+    top: 16.5vw;
 }
 
 #menu3 {
@@ -104,8 +104,6 @@ a {
     padding-left: 80vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    border-bottom: solid 1px #1A9BB8;
-    border-top: solid 1px #1A9BB8;
 
 }
 
@@ -114,11 +112,11 @@ a {
     background-color: #EEA383;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    top: 19vw;
+    top: 20.5vw;
 }
 
 #menu4 {
-    left: 78.5vw;
+    left: 78.8vw;
     z-index: 5;
 }
 
@@ -126,19 +124,17 @@ a {
     z-index: 15;
     left: 0;
     background-color: #EEA383;
-    padding-left: 78.5vw;
+    padding-left: 78.8vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    border-bottom: solid 1px #EEA383;
-    border-top: solid 1px #EEA383;
 }
 
 #menu5_container {
     position: relative;
     background-color: #F3514C;
     color: #F3514C;
-    padding-top: 2.8vw;
-    padding-bottom: 2.7vw;
-    top: 23vw;
+    padding-top: 2.6vw;
+    padding-bottom: 2.6vw;
+    top: 25vw;
     z-index: 15;
 }
