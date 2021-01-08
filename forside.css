@@ -17,25 +17,32 @@ main {
     z-index: 100;
 }
 
-p {
-    font-size: 1rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-}
 
 h2 {
 
     color: white;
     font-family: 'Coda', cursive;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 2vw;
     text-align: center;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5vw
+}
 
-/* MENU */
 
+p {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
 
 
 
@@ -52,6 +59,7 @@ h2 {
 
 #tema2_container {
     padding-top: 2vw;
+    margin-bottom: -1vw;
 }
 
 
@@ -151,6 +159,12 @@ h2 {
 
 
 @media screen and (min-width: 600px) {
+
+    /* MENU */
+
+
+
+
     #main_nav {
         top: 0;
         display: grid;
@@ -307,6 +321,11 @@ h2 {
     /*    MAIN CONTENT STYLING    */
 
 
+    .text_area {
+        padding: 3vw;
+    }
+
+
 
     #main_content_container img {
         width: 960px;
@@ -323,28 +342,17 @@ h2 {
         grid-template-columns: 1fr 1fr;
     }
 
-    #html_text {
-        padding: 5vw;
-    }
-
-
 
     #ide_opgave {
         position: relative;
-        top: -0.25vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #EB9F9F;
     }
 
-    #ide_text {
-        padding: 5vw;
-    }
-
 
     #prototype_opgave {
         position: relative;
-        top: -0.5vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #84E3C8;
@@ -352,7 +360,6 @@ h2 {
 
     #pitch_opgave {
         position: relative;
-        top: -0.75vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #F4DBD2;
@@ -360,7 +367,6 @@ h2 {
 
     #asset_opgave {
         position: relative;
-        top: -1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #EBB5C9;
@@ -370,7 +376,6 @@ h2 {
     #spil_opgave {
 
         position: relative;
-        top: -1.25vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
 
@@ -379,7 +384,6 @@ h2 {
 
     #pilot_opgave {
         position: relative;
-        top: -1.5vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -388,7 +392,6 @@ h2 {
 
     #redesign_opgave {
         position: relative;
-        top: -1.75vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
