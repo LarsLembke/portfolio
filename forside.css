@@ -1,3 +1,14 @@
+/*hovedregler for side*/
+
+
+header {
+
+    background-color: #2c2c2c;
+}
+
+
+
+
 main {
     position: absolute;
     top: 55.5vw;
@@ -7,198 +18,294 @@ main {
 }
 
 p {
-    font-size: 1.3rem;
-}
-
-#main_nav {
-    top: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-
-}
-
-#main_nav a {
-    top: 0;
-    color: white;
-}
-
-#main_nav_container {
-    margin-bottom: 1vw;
-    background-color: #2c2c2c;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-
-#menu6 {
-    background-color: #01866B;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
 }
 
 
 
+/* MENU */
 
-#menu6:hover {
 
-    animation-name: menu6_kf;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    margin-left: 0;
-    margin-right: 0;
+
+
+
+#ide_opgave {
+
+    background-color: #EB9F9F;
 }
 
-@keyframes menu6_kf {
-    0% {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-
-    100% {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-
-
-#menu7 {
-    background-color: #CA4272;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-
-#menu7:hover {
-
-    animation-name: menu7_kf;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-@keyframes menu7_kf {
-    0% {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-
-    100% {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-
-
-
-#menu8 {
-    background-color: #1A9BB8;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-
-#menu8:hover {
-
-    animation-name: menu8_kf;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-@keyframes menu8_kf {
-    0% {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-
-    100% {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-
-
-
-#menu9 {
-    background-color: #EEA383;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-
-#menu9:hover {
-
-    animation-name: menu9_kf;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-@keyframes menu9_kf {
-    0% {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-
-    100% {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-
-
-
-
-
-
-
-#main_content_container img {
-    width: 960px;
-}
-
-#main_content_container {
-    display: block;
-}
 
 #tema1_container {
     background-color: #92DDE5;
 
 }
 
-#html_opgave {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-#html_text {
-    padding: 5vw;
-}
-
-
-
-#ide_opgave {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #EB9F9F;
-}
-
-#ide_text {
-    padding: 5vw;
-}
 
 
 #prototype_opgave {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     background-color: #84E3C8;
+}
+
+
+#pitch_opgave {
+
+    background-color: #F4DBD2;
+}
+
+#asset_opgave {
+    background-color: #EBB5C9;
+}
+
+#spil_opgave {
+
+    background-color: #92DDE5;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    #main_nav {
+        top: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+
+    }
+
+    #main_nav a {
+        top: 0;
+        color: white;
+    }
+
+    #main_nav_container {
+        margin-bottom: 1vw;
+        background-color: #2c2c2c;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+
+
+    /*    MENUPUNKTER MED ANIMATION   */
+
+
+
+    #menu6 {
+        background-color: #01866B;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+
+
+
+    #menu6:hover {
+
+        animation-name: menu6_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @keyframes menu6_kf {
+        0% {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        100% {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+
+
+    #menu7 {
+        background-color: #CA4272;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+
+    #menu7:hover {
+
+        animation-name: menu7_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @keyframes menu7_kf {
+        0% {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        100% {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+
+
+
+    #menu8 {
+        background-color: #1A9BB8;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+
+    #menu8:hover {
+
+        animation-name: menu8_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @keyframes menu8_kf {
+        0% {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        100% {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+
+
+
+    #menu9 {
+        background-color: #EEA383;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+
+    #menu9:hover {
+
+        animation-name: menu9_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @keyframes menu9_kf {
+        0% {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        100% {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+
+
+
+    /*    MAIN CONTENT STYLING    */
+
+
+
+    #main_content_container img {
+        width: 960px;
+    }
+
+    #main_content_container {
+        display: block;
+    }
+
+
+
+    #html_opgave {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #html_text {
+        padding: 5vw;
+    }
+
+
+
+    #ide_opgave {
+        position: relative;
+        top: -0.25vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #EB9F9F;
+    }
+
+    #ide_text {
+        padding: 5vw;
+    }
+
+
+    #prototype_opgave {
+        position: relative;
+        top: -0.5vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #84E3C8;
+    }
+
+    #pitch_opgave {
+        position: relative;
+        top: -0.75vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #F4DBD2;
+    }
+
+    #asset_opgave {
+        position: relative;
+        top: -1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #EBB5C9;
+    }
+
+
+    #spil_opgave {
+
+        position: relative;
+        top: -1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    #pilot_opgave {
+        position: relative;
+        top: -1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #EBB5C9;
+    }
+
+
+
 }
