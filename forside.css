@@ -14,7 +14,7 @@ main {
     top: 55.5vw;
     padding-top: 1vw;
     background-color: #2c2c2c;
-    z-index: 1000;
+    z-index: 100;
 }
 
 p {
@@ -23,9 +23,85 @@ p {
     font-weight: 200;
 }
 
+h2 {
+
+    color: white;
+    font-family: 'Coda', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2vw;
+    text-align: center;
+}
 
 
 /* MENU */
+
+
+
+
+
+#tema1_container {
+    padding-top: 2vw;
+    border-top: solid 1px grey;
+
+}
+
+
+
+
+
+#tema2_container {
+    padding-top: 2vw;
+}
+
+
+
+
+
+#tema3_container {
+    padding-top: 2vw;
+}
+
+
+
+
+
+#tema4_container {
+    padding-top: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -37,20 +113,22 @@ p {
 }
 
 
-#tema1_container {
+#html_opgave {
     background-color: #92DDE5;
 
 }
 
 
 
-#prototype_opgave {
+#prototype_opgave,
+#pilot_opgave {
 
     background-color: #84E3C8;
 }
 
 
-#pitch_opgave {
+#pitch_opgave,
+#redesign_opgave {
 
     background-color: #F4DBD2;
 }
@@ -92,6 +170,7 @@ p {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
+        z-index: 200;
     }
 
 
@@ -291,7 +370,7 @@ p {
     #spil_opgave {
 
         position: relative;
-        top: -1vw;
+        top: -1.25vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
 
@@ -300,10 +379,18 @@ p {
 
     #pilot_opgave {
         position: relative;
-        top: -1vw;
+        top: -1.5vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: #EBB5C9;
+    }
+
+
+
+    #redesign_opgave {
+        position: relative;
+        top: -1.75vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 
