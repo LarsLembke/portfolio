@@ -23,15 +23,6 @@ img {
     top: -60vw;
 }
 
-a {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    font-size: 2vw;
-    max-width: 100%;
-    text-decoration: none;
-}
-
-
 #menu1_container {
     position: relative;
     z-index: 15;
