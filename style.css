@@ -2,7 +2,20 @@
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
 
+h1 {
+
+    color: white;
+    font-family: 'Coda', cursive;
+    font-weight: 800;
+    font-size: 5rem;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: #e8e8e8;
+}
 
 h2 {
 
@@ -12,6 +25,7 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 2vw;
     text-align: center;
+    color: #e8e8e8;
 }
 
 h3 {
@@ -24,10 +38,9 @@ h3 {
 
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    text-align: center;
+    font-weight: 300
 }
 
 
@@ -51,7 +64,7 @@ a {
     #main_nav {
         top: 0;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         text-align: center;
     }
 
@@ -73,16 +86,50 @@ a {
         z-index: 200;
     }
 
+    #logo_menu {
+        position: relative;
+        left: 5vw;
+        width: 4vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
 
+
+    #logo_menu:hover {
+
+        animation-name: logo_menu_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+        transform: scale(1.4);
+        transform-origin: center;
+
+        left: 9vw;
+    }
+
+
+    @keyframes logo_menu_kf {
+        0% {
+            transform: scale(1);
+            left: 9vw;
+        }
+
+        100% {
+            transform: scale(1.4);
+            left: 9vw;
+        }
+    }
 
     /*    MENUPUNKTER MED ANIMATION   */
 
 
 
     #menu6 {
+        padding-top: 0.8vw;
         background-color: #01866B;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
     #menu6:hover {
@@ -97,8 +144,8 @@ a {
 
     @keyframes menu6_kf {
         0% {
-            margin-left: 5vw;
-            margin-right: 5vw;
+            margin-left: 4vw;
+            margin-right: 4vw;
         }
 
         100% {
@@ -110,9 +157,10 @@ a {
 
 
     #menu7 {
+        padding-top: 0.8vw;
         background-color: #CA4272;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
 
@@ -127,8 +175,8 @@ a {
 
     @keyframes menu7_kf {
         0% {
-            margin-left: 5vw;
-            margin-right: 5vw;
+            margin-left: 4vw;
+            margin-right: 4vw;
         }
 
         100% {
@@ -141,6 +189,7 @@ a {
 
 
     #menu8 {
+        padding-top: 0.8vw;
         background-color: #1A9BB8;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -158,8 +207,8 @@ a {
 
     @keyframes menu8_kf {
         0% {
-            margin-left: 5vw;
-            margin-right: 5vw;
+            margin-left: 4vw;
+            margin-right: 4vw;
         }
 
         100% {
@@ -172,9 +221,10 @@ a {
 
 
     #menu9 {
+        padding-top: 0.8vw;
         background-color: #EEA383;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
 
@@ -189,8 +239,8 @@ a {
 
     @keyframes menu9_kf {
         0% {
-            margin-left: 5vw;
-            margin-right: 5vw;
+            margin-left: 4vw;
+            margin-right: 4vw;
         }
 
         100% {
