@@ -93,12 +93,34 @@ a {
         width: 4vw;
         margin-left: 4vw;
         margin-right: 4vw;
+        animation-name: logo_menu_kf;
+        animation-duration: 0.3s;
+        animation-iteration-count: 1;
+        margin-left: 0;
+        margin-right: 0;
+        transform: scale(1);
+        transform-origin: center;
+
+        left: 9vw;
+    }
+
+
+    @keyframes logo_menu_kf {
+        0% {
+            transform: scale(1.2);
+            left: 9vw;
+        }
+
+        100% {
+            transform: scale(1);
+            left: 9vw;
+        }
     }
 
 
     #logo_menu:hover {
 
-        animation-name: logo_menu_kf;
+        animation-name: logo_menu_hover_kf;
         animation-duration: 0.3s;
         animation-iteration-count: 1;
         margin-left: 0;
@@ -110,7 +132,7 @@ a {
     }
 
 
-    @keyframes logo_menu_kf {
+    @keyframes logo_menu_hover_kf {
         0% {
             transform: scale(1);
             left: 9vw;
