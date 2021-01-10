@@ -55,11 +55,11 @@ main {
     scroll-snap-align: center;
 }
 
-#styletile_illu,
-#desktop_illu {
+.image_fit {
     width: 100%;
     height: 35vw;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -78,7 +78,9 @@ iframe {
     overflow-y: scroll;
 }
 
-
+.fit {
+    width: 63vw;
+}
 
 
 
