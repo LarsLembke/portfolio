@@ -79,7 +79,6 @@ figcaption {
 
 #teaterpilot_wrapper {
     position: relative;
-    top: 5vw;
     background-color: #1A9BB8;
     padding: 3vw 3vw;
 }
@@ -96,6 +95,35 @@ figcaption {
     background-color: #1A9BB8;
     margin-bottom: 5vw;
 }
+
+
+
+#heartland_wrapper {
+
+    background-color: #CA4272;
+    padding: 3vw 3vw;
+}
+
+#heartland_container {
+    background-color: #EBB5C9;
+
+    padding: 3vw 3vw;
+}
+
+
+
+#desceneste_wrapper {
+
+    background-color: #EEA383;
+    padding: 3vw 3vw;
+}
+
+#desceneste_container {
+    background-color: #F4DBD2;
+
+    padding: 3vw 3vw;
+}
+
 
 
 
@@ -152,6 +180,11 @@ figcaption {
 
     }
 
+
+    h2 {
+        font-size: 3rem
+    }
+
     .section_wrapper {
         position: relative;
         top: 5vw;
@@ -166,11 +199,14 @@ figcaption {
 
 
     .desktop_container {
-        background-color: #84E3C8;
         padding: 3vw 12vw;
     }
 
+    #teaterpilot_container {
+        background-color: #92DDE5;
 
+        margin: 0vw 6vw;
+    }
 
 
 
@@ -178,7 +214,7 @@ figcaption {
 
     #hf_image_container {
         padding: 0.1vw 0vw 32vw 0vw;
-        margin-bottom: 3vw;
+        margin-bottom: 6vw;
         background-color: #01866B;
 
     }
@@ -187,6 +223,7 @@ figcaption {
     #hf_image_container figure {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 3vw;
     }
 
     #slide_left {
@@ -221,5 +258,55 @@ figcaption {
         padding: 0vw 9vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+
+
+
+
+
+    #heartland_wrapper {
+        padding: 3vw 3vw;
+    }
+
+    #heartland_container {
+        padding: 3vw 3vw;
+        margin: 0vw 6vw;
+    }
+
+
+    #heartland_image_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vw 6vw;
+
+    }
+
+    #teaterpilot_image_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vw 6vw;
+
+    }
+
+
+
+    #desceneste_wrapper {
+        padding: 3vw 3vw;
+    }
+
+    #desceneste_container {
+        padding: 3vw 3vw;
+        margin: 00vw 6vw;
+    }
+
+    #desceneste_image_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vw 6vw;
+
     }
 }

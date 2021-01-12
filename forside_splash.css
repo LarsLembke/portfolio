@@ -12,7 +12,7 @@ img {
     position: absolute;
     transform-origin: top left;
     transform: translate(0vw, -55.9vw);
-    width: 100 %;
+    width: 100%;
     z-index: 10;
     pointer-events: none;
 }
