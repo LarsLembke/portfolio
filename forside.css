@@ -83,7 +83,9 @@ main {
         padding: 3vw;
     }
 
-
+    #main_nav_container {
+        padding-left: 3.3vw;
+    }
 
     #main_content_container img {
         width: 960px;

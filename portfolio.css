@@ -2,25 +2,19 @@ main {
     background-color: #2c2c2c;
 }
 
-
-
-
-
-#main_nav_container {
-    background-color: #2c2c2c;
-    position: fixed;
-    top: 0;
-    z-index: 200;
-    width: 100vw;
-
+h1 {
+    font-size: 3.6rem;
 }
+
+
+
+
 
 
 
 .section_wrapper {
     position: relative;
-    top: 5vw;
-    margin: 5vw;
+    margin: 0vw 5vw;
 }
 
 .img_container {
@@ -115,4 +109,35 @@ iframe {
 #prototype_container {
     color: white;
     background-color: #01866B;
+}
+
+
+@media screen and (min-width: 960px) {
+    #main_nav_container {
+        background-color: #2c2c2c;
+        position: fixed;
+        top: 0;
+        z-index: 200;
+        width: 100vw;
+
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .section_wrapper {
+        position: relative;
+        top: 5vw;
+        margin: 5vw;
+    }
+
+
+    #content_mood_illu,
+    #lighthouse_illu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2px;
+    }
+
 }
