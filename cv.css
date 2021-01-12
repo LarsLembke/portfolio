@@ -24,7 +24,7 @@ body {
 
 #hf_image_container {
     padding: 0.1vw 0vw 150vw 0vw;
-    margin-bottom: 4vw;
+    margin-bottom: 18vw;
     background-color: #01866B;
 
 }
@@ -33,7 +33,7 @@ body {
 
 #slide_left {
     position: relative;
-    top: 70vw;
+    top: 84vw;
 }
 
 
@@ -165,7 +165,7 @@ figcaption {
     }
 
 
-    #hf_container {
+    .desktop_container {
         background-color: #84E3C8;
         padding: 3vw 12vw;
     }
