@@ -6,6 +6,16 @@ h1 {
     font-size: 3.6rem;
 }
 
+#prototype_link {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    max-width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -138,6 +148,32 @@ iframe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 2px;
+    }
+
+    #prototype {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #proto_text {
+        margin: 5vw 3vw;
+    }
+
+    #prototype_link {
+        position: relative;
+        top: 5vw;
+        left: 5vw;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 2vw;
+        max-width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+
+    #prototype_link:hover {
+        text-decoration: underline;
     }
 
 }
