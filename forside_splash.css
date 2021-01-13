@@ -4,6 +4,11 @@ img {
 }
 
 
+
+header {
+    height: 55.6vw;
+}
+
 #back {
     position: absolute;
 }
