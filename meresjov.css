@@ -1,1 +1,67 @@
+main {
+    background-color: #2c2c2c;
 
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: white;
+}
+
+
+#covers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#tees {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+#bastard {
+    font-size: 1.7rem
+}
+
+main p {
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+    margin: 0vw 14vw;
+}
+
+@media screen and (min-width: 651px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+        margin-top: 2vw;
+    }
+
+    #bastard {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        padding: 0vw 8vw;
+    }
+
+    main p {
+        font-size: 1rem;
+        padding: 2vw 17vw;
+    }
+
+    #soft {
+        width: 100%;
+    }
+}
